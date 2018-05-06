@@ -1,0 +1,33 @@
+# Tuning hyper-parameters for precision
+
+Best parameters set found on development set:
+
+{'C': 1}
+
+Grid scores on development set:
+
+0.906 (+/-0.001) for {'C': 1}
+0.905 (+/-0.001) for {'C': 2}
+0.900 (+/-0.004) for {'C': 5}
+0.892 (+/-0.001) for {'C': 10}
+0.883 (+/-0.010) for {'C': 20}
+
+Detailed classification report:
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+             precision    recall  f1-score   support
+
+        0.0       0.95      0.98      0.96       980
+        1.0       0.96      0.98      0.97      1135
+        2.0       0.93      0.88      0.91      1032
+        3.0       0.90      0.91      0.90      1010
+        4.0       0.92      0.93      0.92       982
+        5.0       0.89      0.86      0.87       892
+        6.0       0.93      0.95      0.94       958
+        7.0       0.92      0.92      0.92      1028
+        8.0       0.88      0.87      0.87       974
+        9.0       0.90      0.89      0.89      1008
+
+avg / total       0.92      0.92      0.92      9999
